@@ -5,4 +5,4 @@
 @import url('base/layout.css') layer(base.layout);
 @import url('base/color.css') layer(base.color);
 
-@import url('fonts.css') layer(theme.fonts);
+@import url('theme/default/main.css') layer(theme);
