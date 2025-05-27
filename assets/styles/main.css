@@ -1,5 +1,8 @@
-@import url('base.css');
-@import url('fonts.css');
-@import url('variables/typography.css');
-@import url('variables/layout.css');
-@import url('variables/color.css');
+@layer base, theme;
+
+@import url('base.css') layer(base.reset);
+@import url('base/typography.css') layer(base.typography);
+@import url('base/layout.css') layer(base.layout);
+@import url('base/color.css') layer(base.color);
+
+@import url('fonts.css') layer(theme.fonts);
